@@ -124,6 +124,15 @@ h1 {
   box-shadow: 10px 15px var(--main-highlight-color);
 }
 
+.food-web-section {
+  width: 50%;
+  background-color: var(--background-section-color);
+  height: 27.5rem;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 10px 15px var(--main-highlight-color);
+}
+
 .location-section {
   width: 40%;
   background-color: var(--background-section-color);
@@ -138,6 +147,11 @@ h1 {
 
 .section-header {
   text-align: center;
+}
+
+.section-header p {
+  padding-top: 0.25rem;
+  margin-top: 0.25rem;
 }
 
 .placeholder {
@@ -171,6 +185,20 @@ h1 {
   box-shadow: 10px 15px var(--main-highlight-color);
 }
 
+.food-web-explanation {
+  width: 35%;
+  background-color: var(--background-section-color);
+  height: 20rem;
+  padding: 1em;
+  margin: 1em;
+  margin-left: auto;
+  margin-bottom: 5rem;
+  margin-top: -24rem;
+  margin-right: 7.5%;
+  box-shadow: 10px 15px var(--main-highlight-color);
+  text-align: center;
+}
+
 .poaching-image {
   width: 100%;
   height: 100%;
@@ -182,5 +210,20 @@ h1 {
   width: auto;
   height: auto;
   max-height: 100%;
+  max-width: 100%;
+}
+
+.food-web-image {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.food-web-image img {
+  width: auto;
+  height: auto;
+  max-height: 90%;
   max-width: 100%;
 }
