@@ -2,13 +2,30 @@
     --main-bg-color: #568ea3;
     --main-card-bg-color: #E96400;
     --main-highlight-color: #a40e4c;
+    --background-section-color: #ababab;
+    --scrollbar-color: #dedede;
 }
 
 ::selection {
     background: var(--main-highlight-color); /* WebKit/Blink Browsers */
 }
-  ::-moz-selection {
+
+::-moz-selection {
     background: var(--main-highlight-color); /* Gecko Browsers */
+}
+
+body::-webkit-scrollbar {
+  width: 15px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbar-color);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 5px solid var(--scrollbar-color);  /* creates padding around scroll thumb */
 }
 
 * {
@@ -91,4 +108,59 @@ h1 {
 
 .Navbar__Items--right {
     margin-left: auto;
+}
+
+.background-section {
+  width: 40%;
+  background-color: var(--background-section-color);
+  height: 20rem;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 10px 15px var(--main-highlight-color);
+}
+
+.location-section {
+  width: 40%;
+  background-color: var(--background-section-color);
+  height: 20rem;
+  padding: 1em;
+  margin: 1em;
+  margin-left: auto;
+  margin-bottom: 5rem;
+  margin-right: 2em;
+  box-shadow: 10px 15px var(--main-highlight-color);
+}
+
+.section-header {
+  text-align: center;
+}
+
+.placeholder {
+  visibility: hidden;
+}
+
+.image-section-1 {
+  width: 35%;
+  background-color: var(--background-section-color);
+  height: 17.5rem;
+  padding: 1em;
+  margin: 1em;
+  margin-left: auto;
+  margin-bottom: 5rem;
+  margin-top: -19.5rem;
+  margin-right: 10%;
+  box-shadow: 10px 15px var(--main-highlight-color);
+}
+
+.map-section-1 {
+  width: 35%;
+  background-color: var(--background-section-color);
+  height: 17.5rem;
+  padding: 1em;
+  margin: 1em;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  margin-top: -23.5rem;
+  margin-left: 10%;
+  box-shadow: 10px 15px var(--main-highlight-color);
 }
