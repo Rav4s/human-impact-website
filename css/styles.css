@@ -130,6 +130,16 @@ h1 {
   box-shadow: 10px 15px var(--main-highlight-color);
 }
 
+.symbiosis-section {
+  width: 40%;
+  background-color: var(--background-section-color);
+  height: 22.5rem;
+  padding: 1em;
+  margin: 1em;
+  margin-left: 10%;
+  box-shadow: 10px 15px var(--main-highlight-color);
+}
+
 .food-web-section {
   width: 50%;
   background-color: var(--background-section-color);
@@ -174,6 +184,20 @@ h1 {
   margin-bottom: 5rem;
   margin-top: -19.5rem;
   margin-right: 10%;
+  box-shadow: 10px 15px var(--main-highlight-color);
+  text-align: center;
+}
+
+.image-section-2 {
+  width: 35%;
+  background-color: var(--background-section-color);
+  height: 17.5rem;
+  padding: 1em;
+  margin: 1em;
+  margin-left: auto;
+  margin-bottom: 5rem;
+  margin-top: -20.5rem;
+  margin-right: 2em;
   box-shadow: 10px 15px var(--main-highlight-color);
   text-align: center;
 }
