@@ -147,6 +147,7 @@ h1 {
   padding: 1em;
   margin: 1em;
   box-shadow: 10px 15px var(--main-highlight-color);
+  margin-top: 10.5em;
 }
 
 .location-section {
@@ -218,12 +219,12 @@ h1 {
 .food-web-explanation {
   width: 35%;
   background-color: var(--background-section-color);
-  height: 25rem;
+  height: 35rem;
   padding: 1em;
   margin: 1em;
   margin-left: auto;
   margin-bottom: 5rem;
-  margin-top: -27rem;
+  margin-top: -32.5rem;
   margin-right: 7.5%;
   box-shadow: 10px 15px var(--main-highlight-color);
   text-align: center;
