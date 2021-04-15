@@ -131,12 +131,12 @@ h1 {
 }
 
 .symbiosis-section {
-  width: 40%;
+  width: 50%;
   background-color: var(--background-section-color);
-  height: 22.5rem;
+  height: 37.5rem;
   padding: 1em;
   margin: 1em;
-  margin-left: 10%;
+  margin-left: 5%;
   box-shadow: 10px 15px var(--main-highlight-color);
 }
 
@@ -190,14 +190,14 @@ h1 {
 }
 
 .image-section-2 {
-  width: 35%;
+  width: 40%;
   background-color: var(--background-section-color);
-  height: 17.5rem;
+  height: 20rem;
   padding: 1em;
   margin: 1em;
   margin-left: auto;
   margin-bottom: 5rem;
-  margin-top: -20.5rem;
+  margin-top: -30rem;
   margin-right: 2em;
   box-shadow: 10px 15px var(--main-highlight-color);
   text-align: center;
