@@ -217,7 +217,7 @@ h1 {
 }
 
 .food-web-explanation {
-  width: 35%;
+  width: 40%;
   background-color: var(--background-section-color);
   height: 35rem;
   padding: 1em;
@@ -225,7 +225,7 @@ h1 {
   margin-left: auto;
   margin-bottom: 5rem;
   margin-top: -32.5rem;
-  margin-right: 7.5%;
+  margin-right: 2.5%;
   box-shadow: 10px 15px var(--main-highlight-color);
   text-align: center;
 }
