@@ -78,7 +78,7 @@ p {
     background-color: var(--main-card-bg-color);
     display: flex;
     padding: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif
     color: white;
 }
 
