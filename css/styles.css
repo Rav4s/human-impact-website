@@ -121,6 +121,10 @@ h1 {
     margin-left: auto;
 }
 
+.Navbar__Link--sources {
+  margin-right: 0.5em;
+}
+
 .background-section {
   width: 40%;
   background-color: var(--background-section-color);
@@ -248,7 +252,7 @@ h1 {
   padding: 1em;
   margin: 1em;
   margin-left: auto;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   margin-top: -23.5rem;
   margin-right: 2em;
   box-shadow: 10px 15px var(--main-highlight-color);
@@ -309,4 +313,19 @@ h1 {
   height: auto;
   max-height: 90%;
   max-width: 100%;
+}
+
+.sources-section {
+  width: 80%;
+  background-color: var(--background-section-color);
+  height: 10rem;
+  padding: 0.5em;
+  margin: 1em;
+  margin-left: 10%;
+  box-shadow: 10px 15px var(--main-highlight-color);
+  text-align: center;
+}
+
+.sources-section p {
+  font-size: 1.5rem;
 }
